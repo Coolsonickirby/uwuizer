@@ -14,4 +14,7 @@ keywords = ["Macro", "Fun", "UwU"]
 
 [dependencies]
 regex = "1"
-rand = "0.7"
+rand = { git = "https://github.com/skyline-rs/rand" }
+
+[patch.crates-io]
+getrandom = { git = "https://github.com/Raytwo/getrandom" }
